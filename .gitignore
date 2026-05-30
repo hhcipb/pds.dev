@@ -4,3 +4,14 @@ main.js
 .python_packages
 __pycache__
 .venv
+# boomshakalaka root bundle (local-only)
+.env
+docs_donotcommit/
+# /boomshakalaka root bundle
+
+# Local migration/backout artifacts
+*.stage4-bak
+.env.*bak
+.env.bak-*
+.env.cutover-bak
+.claude/
